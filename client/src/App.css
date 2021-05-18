@@ -12,18 +12,22 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.container {
+  width: 100%;
+}
+
 /************* NAV *****************/
 
 nav {
   z-index: 2;
+  background-color: var(--primary-red);
 }
 
 nav a.nav-link {
-  font-size: 0.8rem;
+  font-size: 0.99rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
   font-family: "Roboto Condensed", sans-serif;
-
 }
 
 nav ul li {
@@ -39,7 +43,7 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
-  padding: 0 !important;
+  padding: 10px !important;
   height: 6rem !important;
 }
 
@@ -64,7 +68,6 @@ nav ul li {
   background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  
   height: 90vh;
 }
 
@@ -198,3 +201,8 @@ nav ul li {
   width: 100%;
 }
 
+/* ------Footer -------- */
+
+.foot {
+  background-color: var(--primary-red);
+}
