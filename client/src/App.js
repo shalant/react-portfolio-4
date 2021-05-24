@@ -3,15 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Header from './components/Header';
 import Footer from './components/Footer';
-import ImageSlider from './components/ImageSlider';
-import { SliderData } from './components/SliderData';
 import Particles from 'react-particles-js';
 import About from './pages/About';
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
 import { Navbar, Nav } from 'react-bootstrap';
 
 
@@ -26,16 +24,21 @@ function App() {
                     <Nav className='ml-auto'>
                         <Link className='nav-link' to='/'>Home</Link>
                         <Link className='nav-link' to='/about'>About</Link>
+                        <Link className='nav-link' to='/portfolio'>Portfolio</Link>
                         <Link className='nav-link' to='/resume'>Resume</Link>
                         <Link className='nav-link' to='/contact'>Contact</Link>
+                    
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
-        <Switch>
-          <Route path='/about' component={About} />
-          <Route path='/resume' component={Resume} />
-          <Route path='/contact' component={Contact} />
-        </Switch>
+      </Navbar>
+      
+      <Switch>
+        <Route path='/home' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/portfolio' component={Portfolio} />
+        <Route path='/resume' component={Resume} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
         <Particles 
           className='particles-canvas'
           params={{
@@ -59,7 +62,7 @@ function App() {
         />
         
         <Home />
-        <ImageSlider slides={SliderData} />
+        
         <Footer />
       </Container>
     </Router>

@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vw !important;
+  height: 100vh;
 }
 
 /************* NAV *****************/
@@ -68,7 +69,7 @@ nav ul li {
   background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -205,4 +206,8 @@ nav ul li {
 
 .foot {
   background-color: var(--primary-red);
+}
+
+.footerIcons {
+  ;
 }

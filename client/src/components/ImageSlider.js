@@ -36,4 +36,4 @@ const ImageSlider = ({ slides }) => {
     );
 };
 
-export default ImageSlider
+export default ImageSlider;
