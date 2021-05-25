@@ -209,5 +209,44 @@ nav ul li {
 }
 
 .footerIcons {
-  ;
+  
 }
+
+/* ------About------ */
+
+.about {
+  position: relative;
+  background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1em;
+}
+
+.fontawesome-icons {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.react-icons {
+  padding-left: 10px;
+  margin-left: 10px;
+
+}
+
+.global-class-name {
+  size: 3em;
+}
+
+/* ------Resume------ */
+
+.resume {
+  position: relative;
+  background: linear-gradient( rgba(108, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url(brandi-ibrao-_SFzNHc8ftg-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
