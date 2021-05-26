@@ -32,7 +32,7 @@ nav a.nav-link {
 }
 
 nav ul li {
-  text-transform: uppercase;
+  text-transform: case;
   align-items: auto;
 }
 
@@ -152,9 +152,9 @@ nav ul li {
 }
 
 .image {
-  width: 70vw;
-  height: 600px;
-  border-radius: 10px;
+  width: 60vw;
+  height: 400px;
+  border-radius: 25px;
 }
 
 .right-arrow {

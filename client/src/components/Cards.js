@@ -10,13 +10,13 @@ class Cards extends Component {
             <div className='container-fluid d-flex justify-content-center'>
                 <div className='row'>
                     <div className='col-md-4'>
-                        <Card imgsrc={img1} title="SchedulerApp" />
+                        <Card imgsrc={img1} title="SchedulerApp" description='cool' />
                     </div>
                     <div className='col-md-4'>
-                        <Card imgsrc={img2} title="InformedTrades" />
+                        <Card imgsrc={img2} title="InformedTrades" description='beans' />
                     </div>
                     <div className='col-md-4'>
-                        <Card imgsrc={img3} title="DynamicWines" />
+                        <Card imgsrc={img3} title="DynamicWines" description='bro' />
                     </div>
                 </div>
             </div>
