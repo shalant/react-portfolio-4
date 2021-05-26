@@ -33,6 +33,7 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
+  align-items: auto;
 }
 
 .navbar-nav > li > a {
@@ -151,7 +152,7 @@ nav ul li {
 }
 
 .image {
-  width: 1000px;
+  width: 70vw;
   height: 600px;
   border-radius: 10px;
 }
@@ -222,22 +223,39 @@ nav ul li {
   height: 100vh;
   text-align: center;
   padding: 1em;
+  justify-content: space-between;
+  
+}
+
+.about-text {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  padding-top: 1.5em;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px #888888;
+  background-blend-mode: soft-light;
+}
+
+.about-text:hover {
+  size: 1.1em;
 }
 
 .fontawesome-icons {
+  padding-top: 100px;
   padding-left: 10px;
   margin-left: 10px;
+  justify-content: space-between;
 }
 
 .react-icons {
+  padding-top: 100px;
   padding-left: 10px;
   margin-left: 10px;
 
 }
 
-.global-class-name {
-  size: 3em;
-}
 
 /* ------Resume------ */
 

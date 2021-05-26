@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import Cards from './components/Cards';
 import { Navbar, Nav } from 'react-bootstrap';
 
 
@@ -41,15 +42,13 @@ function App() {
           }}
         />
         <Switch>
-          <Route path='/home' component={Home} />
+          <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
+          <Route path='/cards' component={Cards} />
         </Switch>
-        
-        
-        <Home />
         <Footer />
       </Container>
     </Router>
