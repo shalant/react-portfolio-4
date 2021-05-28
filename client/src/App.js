@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Cards from './components/Cards';
 import { Navbar, Nav } from 'react-bootstrap';
+import ContactShakhor from './pages/ContactShakhor';
 
 
 function App() {
@@ -46,7 +47,7 @@ function App() {
           <Route path='/about' component={About} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/resume' component={Resume} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/contact' component={ContactShakhor} />
           <Route path='/cards' component={Cards} />
         </Switch>
         <Footer />

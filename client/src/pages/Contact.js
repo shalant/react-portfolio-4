@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactPage from './ContactPage'
 
 function Contact() {
     return (
         <div>
-            Hit
+            <ContactPage />
         </div>
     )
 }
