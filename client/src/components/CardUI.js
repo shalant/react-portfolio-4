@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './card-style.css';
 
 const Card = props => {
@@ -10,8 +11,8 @@ const Card = props => {
             <div className='card-body text-dark'>
                 <h4 className='card-title'>{props.title}</h4>
                 <p className='text-secondary'>{props.description}</p>
-                <a href='#' className='btn btn-outline-success'>View deployment</a>
-                <a href='#' className='btn btn-outline-success'>Code on Github</a>
+                <a target='_blank' href={props.deployment} className='btn btn-outline-success'>View deployment</a>
+                <a target='_blank' href={props.github} className='btn btn-outline-success'>Code on Github</a>
             </div>
         </div>   
     );
