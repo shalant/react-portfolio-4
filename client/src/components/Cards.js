@@ -15,7 +15,7 @@ class Cards extends Component {
                             title="SchedulerApp" 
                             description='cool' 
                             deployment='https://shalant.github.io/SchedulerApp/'
-                            github= 'https://github.com/shalant/SchedulerApp'
+                            github='https://github.com/shalant/SchedulerApp'
                         />
                     </div>
                     <div className='col-md-4'>
@@ -32,7 +32,7 @@ class Cards extends Component {
                             imgsrc={img3} 
                             title="DynamicWines" 
                             description='bro' 
-                            deployment= 'https://dynamic-wines.herokuapp.com/'
+                            deployment='https://dynamic-wines.herokuapp.com/'
                             github= 'https://github.com/shalant/dynamicwines2'
                         />
                     </div>

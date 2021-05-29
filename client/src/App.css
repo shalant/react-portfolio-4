@@ -253,7 +253,17 @@ nav ul li {
   padding-top: 100px;
   padding-left: 10px;
   margin-left: 10px;
+}
 
+.headshot {
+  width: 20rem;
+  transition: 1;
+  border-radius: 11px;
+  box-shadow: 50;
+}
+
+.headshot:hover {
+  transition: 1.1;
 }
 
 

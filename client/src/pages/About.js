@@ -2,10 +2,12 @@ import React from 'react';
 import '../App.css';
 import { SiMysql, SiRedux, SiMongodb, SiJest, SiMicrosoftword, SiMicrosoftexcel, SiMaterialUi } from 'react-icons/si';
 import { IconContext } from "react-icons";
+import headshot from '../assets/images/headshot.jpg';
 
 function About() {
     return (
         <div className='about'>
+            <img src={headshot} className='headshot' />
             <p className='about-text'>Full Stack Junior Web Developer with a background in Music and BS in Chemistry, 20 years performing/ teaching music. Passionate about coding with MERN stack and working with teammates. Strong independent learner that enjoys pithy challenges. Looking forward to my new career creating value for a company.</p>
             <div className='fontawesome-icons'>
                 <i class="fab fa-html5 fa-3x"></i>

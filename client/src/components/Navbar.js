@@ -10,7 +10,7 @@ function NavbarD() {
         <Navbar className='border-bottom nav' expand='lg' sticky='top'>
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
-                <Navbar.Collapse classname='nav' id='navbar-toggle'>
+                <Navbar.Collapse className='nav' id='navbar-toggle'>
                     <Nav className='mr-auto'>
                         <Link className='nav-link' to='/'>Home</Link>
                         <Link className='nav-link' to='/about'>About</Link>
