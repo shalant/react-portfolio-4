@@ -21,7 +21,7 @@ class ContactShakhor extends Component {
     }
 
     async handleSubmit(e) {
-        e.preventDefault()
+        e.preventDefault();
 
         const { name, email, message } = this.state;
 
@@ -36,33 +36,29 @@ class ContactShakhor extends Component {
         return (
             <Form onSubmit={this.handleSubmit} style={{ width: '600px' }}>
                 <FormGroup>
-                    <Label for='name'>
-                        Name:
-                    </Label>
+                    <Label for='name'>Name:</Label>
                     <Input
                         type='text'
                         name='name'
-                        // onChange={this.handleChange}
+                        onChange={this.handleChange}
                     />
                 </FormGroup>
+
                 <FormGroup>
-                    <Label for='email'>
-                        Email:
-                    </Label>
+                    <Label for='email'>Email:</Label>
                     <Input
                         type='email'
                         name='email'
-                        // onChange={this.handleChange}
+                        onChange={this.handleChange}
                     />
                 </FormGroup>
+
                 <FormGroup>
-                    <Label for='message'>
-                        Message:
-                    </Label>
+                    <Label for='message'>Message:</Label>
                     <Input
                         type='textarea'
                         name='message'
-                        // onChange={this.handleChange}
+                        onChange={this.handleChange}
                     />
                 </FormGroup>
 
@@ -70,6 +66,6 @@ class ContactShakhor extends Component {
             </Form>
         );
     }
-    }
+}
 
 export default ContactShakhor;

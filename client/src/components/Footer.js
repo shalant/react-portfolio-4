@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../App.css';
-import {AiFillGithub} from 'react-icons/ai'
 
 function Footer() {
 
@@ -16,10 +15,10 @@ function Footer() {
                     </Col>
                     <Col>
                         
-                        <a href='https://www.github.com/shalant'><i class="fab fa-github-square fa-3x"></i></a>
+                        <a href='https://www.github.com/shalant'><i className="fab fa-github-square fa-3x"></i></a>
                     </Col>
                     <Col>
-                        <a href='https://www.linkedin.com/in/douglasrosenberg/'><i class="fab fa-linkedin fa-3x"></i></a>
+                        <a href='https://www.linkedin.com/in/douglasrosenberg/'><i className="fab fa-linkedin fa-3x"></i></a>
                     </Col>
                     <Col className='p=0 d-flex fustify-content-end' md={3}>
                         This site was made by Doug Rosenberg
