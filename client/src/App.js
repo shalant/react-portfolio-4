@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container'
 import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-router-dom';
 import Footer from './components/Footer';

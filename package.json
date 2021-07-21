@@ -1,10 +1,14 @@
 {
   "name": "react-portfolio-4",
+  "homepage": "https://shalant.github.io/react-portfolio-4/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
@@ -18,12 +22,13 @@
   "bugs": {
     "url": "https://github.com/shalant/react-portfolio-4/issues"
   },
-  "homepage": "https://github.com/shalant/react-portfolio-4#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^6.2.0",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "nodemailer": "^6.6.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "react-scripts": "^4.0.3"
   }
 }
